@@ -1,0 +1,27 @@
+.home {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+.card {
+  transition: 0.5s;
+}
+.card:hover {
+  transform: translateY(-10px);
+  box-shadow: 0px 18px 20px #3838381a;
+}
+.description,
+.title {
+  overflow: hidden;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
+}
+.title {
+  -webkit-line-clamp: 1;
+}
+.description {
+  -webkit-line-clamp: 3;
+}
+.star {
+  color: gold;
+}
